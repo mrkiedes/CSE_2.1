@@ -1,16 +1,22 @@
-# This is a sample Python script.
+# This is a comment - one line
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# To print to the screen in python, use print()
+print(4+4)
+print("4" + "4")
+
+# use the method typeOf() to find out the data type of a value
+print(type("4"))
+
+# To make a variable: varName = content
+batteredSausage = 86
+
+# if batteredSausage is 86, then display go away
+if batteredSausage == 85:
+    print("Go away...")
+    print("Go away...")
+    print("Go away...")
+    print("Go away...")
+    print("Go away...")
+print("after my conditional")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
